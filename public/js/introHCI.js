@@ -36,8 +36,8 @@ function addProjectDetails(e) {
  * and apply it
  */
 function randomizeColors(e) {
-	e.prevetnDefault();
-	
+	e.preventDefault();
+
 	console.log("User clicked on color button");
 	$.get("/palette", changeColors);
 }
